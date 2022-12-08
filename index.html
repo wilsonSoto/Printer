@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Que operacion desea realizar</h2>
+    <label for=""
+      >Seleccione la operacion matematica y Ingrese dos valores
+    </label>
+    <br />
+    <hr />
+    <form action="" id="forms" name="form">
+      <select name="operation" id="operation">
+        <option value="value1" selected disabled></option>
+        <option value="Suma">Suma</option>
+        <option value="Resta">Resta</option>
+        <option value="Mult">Multiplicacion</option>
+        <option value="Divam    1vf1t">Division</option>
+      </select>
+      <br />
+      <label for="">Ingrese el primer numero</label>
+      <br />
+      <input type="number" id="n1" />
+      <br />
+      <label for="">Ingrese el segundo numero</label>
+      <br />
+      <input type="number" id="n2" />
+      <br />
+      <button type="submit">Calcular</button>
+    </form>
+    <h5>Su resultado es <span id="result"></span></h5>
+    <script type="module" src="form.js"></script>
+    <!-- <script src="./operation/sumar.js"></script> -->
+  </body>
+</html>
